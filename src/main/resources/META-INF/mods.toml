@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="nuggetpatch"
+version="${file.jarVersion}"
+displayName="Nugget Patch"
+authors="NoEffort"
+description='''
+Nothing to see here!
+'''
+[[dependencies.nuggetpatch]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nuggetpatch]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nuggetpatch]]
+    modId="quark"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.nuggetpatch]]
+    modId="byg"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.nuggetpatch]]
+    modId="duneons"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
